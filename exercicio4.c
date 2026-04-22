@@ -18,8 +18,8 @@ int main() {
             pontos++;
             printf("Correto! Pontos: %d\n\n", pontos);
         } else {
-            printf("Errado! A resposta certa era %d.\n", a + b);
-            printf("Você fez %d pontos.\n", pontos);
+            printf("Errou\n");
+            printf("Pontos: %d\n", pontos);
             break;
         }
     }
